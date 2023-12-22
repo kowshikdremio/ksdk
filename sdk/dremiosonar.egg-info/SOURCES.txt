@@ -1,0 +1,8 @@
+setup.py
+dremiosonar/__init__.py
+dremiosonar/dremiosonar.py
+dremiosonar.egg-info/PKG-INFO
+dremiosonar.egg-info/SOURCES.txt
+dremiosonar.egg-info/dependency_links.txt
+dremiosonar.egg-info/requires.txt
+dremiosonar.egg-info/top_level.txt
