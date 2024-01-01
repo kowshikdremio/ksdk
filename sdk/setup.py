@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'Functions for interacting Dremio Sonar'
 
 # Setting up
@@ -12,7 +12,7 @@ setup(
 	author="Dremio PS",
 	author_email="dremisonar@dremio.com",
 	packages=find_packages(),
-	install_requires=['jaydebeapi','pandas'],
+	install_requires=['jaydebeapi','pandas','json','requests'],
 	keywords=['Dremio','Sonar','Dremio Sonar'],
 	classifiers=[
 		"Development Status:: 1 - Planning",
