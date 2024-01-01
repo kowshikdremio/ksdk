@@ -30,9 +30,3 @@ def login(username, password,dremioWebURL):
   token = data['token']
   print('Successfully completed login function....')
   return {'content-type':'application/json', 'Authorization':'_dremio{authToken}'.format(authToken=token)}
-
-#username = 'localadmin'
-#password = 'Kolkata@1'
-
-#auth_token = login(username,password,dremioWebUrl)
-#print(auth_token)
